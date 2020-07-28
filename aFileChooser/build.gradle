@@ -1,6 +1,6 @@
 buildscript {
     repositories {
-        mavenCentral()
+        jcenter()
     }
     dependencies {
         //classpath 'com.android.tools.build:gradle:3.0.1'
@@ -14,7 +14,8 @@ dependencies {
 
 android {
     compileSdkVersion rootProject.ext.compileSdkVersion
-    buildToolsVersion = '28.0.3'
+    buildToolsVersion = '29.0.2'
+
 
     sourceSets {
         main {
